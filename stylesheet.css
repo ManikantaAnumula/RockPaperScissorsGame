@@ -75,28 +75,67 @@ img {
     padding: 1rem;
 }
 
-.statsouterclass p{ 
+.statsouterclass p {
     font-size: 1rem;
     font-style: italic;
 }
 
-.statsinnerclass { 
+.statsinnerclass {
     display: flex;
     margin-top: 0.2rem;
 }
 
-.stat { 
-   margin-right: 0.2rem;
+.stat {
+    margin-right: 0.2rem;
 }
 
-.user-score { 
+.user-score {
     display: flex;
 }
 
-.statsouterclass { 
+.statsouterclass {
     padding-left: 1rem;
 }
 
-.user-score { 
+.user-score {
     margin-right: 1rem;
+}
+
+#getjokebtn {
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    line-height: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#getjokebtn:hover {
+    transform: scale(1.1);
+}
+
+.jokecontent {
+    background-color: #4F75FF;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: fit-content;
+    display: none;
+    margin-top: 1rem;
+}
+
+.jokecontent p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.classjoke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
